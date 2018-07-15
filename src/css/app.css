@@ -55,6 +55,120 @@ body {
   .swiper-slide img {
     width: 100%; }
 
+.swiper-pagination-bullet-active {
+  background: white; }
+
+.content_wrapper > div {
+  display: none; }
+.content_wrapper .active {
+  display: block; }
+
+.mod_list {
+  margin: 5px 10px 7px 10px; }
+  .mod_list .mod_title {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 11px;
+    font-weight: normal; }
+  .mod_list ul {
+    overflow: hidden; }
+    .mod_list ul .list_content {
+      float: left;
+      width: 49%;
+      margin: 0.5%; }
+      .mod_list ul .list_content a {
+        display: block;
+        background: white; }
+        .mod_list ul .list_content a .list_media {
+          position: relative; }
+          .mod_list ul .list_content a .list_media img {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: block; }
+          .mod_list ul .list_content a .list_media::before {
+            content: "";
+            display: block;
+            padding-top: 100%; }
+          .mod_list ul .list_content a .list_media .list_icon {
+            height: 24px;
+            width: 24px;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: url("../images/list_sprite.png");
+            background-repeat: no-repeat;
+            background-size: 24px 60px; }
+        .mod_list ul .list_content a .list_text {
+          padding: 5px 0 31px 7px; }
+          .mod_list ul .list_content a .list_text h3 {
+            color: #000;
+            font-weight: normal;
+            line-height: 18px;
+            font-size: 14px; }
+
+.mod_special {
+  margin: 5px 10px 7px 10px; }
+  .mod_special .mod_title {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 11px;
+    font-weight: normal; }
+  .mod_special ul {
+    overflow: hidden; }
+    .mod_special ul .mod_content {
+      float: left;
+      width: 49%;
+      margin: 0.5%; }
+      .mod_special ul .mod_content a {
+        display: block;
+        background: white; }
+        .mod_special ul .mod_content a .mod_media {
+          position: relative; }
+          .mod_special ul .mod_content a .mod_media img {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: block; }
+          .mod_special ul .mod_content a .mod_media::before {
+            content: "";
+            display: block;
+            padding-top: 100%; }
+          .mod_special ul .mod_content a .mod_media .mod_icon {
+            height: 24px;
+            width: 24px;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: url("../images/list_sprite.png");
+            background-repeat: no-repeat;
+            background-size: 24px 60px; }
+          .mod_special ul .mod_content a .mod_media .moun_count i {
+            height: 14px;
+            width: 20px;
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            background: url("../images/list_sprite1.png");
+            background-repeat: no-repeat;
+            background-size: 14px 12px; }
+          .mod_special ul .mod_content a .mod_media .moun_count span {
+            position: absolute;
+            bottom: 2px;
+            left: 22px;
+            color: white; }
+        .mod_special ul .mod_content a .mod_text {
+          padding: 5px 0 5px 7px; }
+          .mod_special ul .mod_content a .mod_text h3 {
+            color: #000;
+            font-weight: normal;
+            line-height: 18px;
+            font-size: 14px; }
+          .mod_special ul .mod_content a .mod_text p {
+            margin-top: 6px; }
+
 body {
   background: #f4f4f4; }
 

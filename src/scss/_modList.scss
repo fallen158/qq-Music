@@ -1,0 +1,56 @@
+.mod_list {
+  margin: 5px 10px 7px 10px;
+  .mod_title {
+    font-size: $mod-title-size;
+    color: $mod-title-color;
+    margin-bottom: 11px;
+    font-weight: normal;
+  }
+  ul {
+    overflow: hidden;
+    .list_content {
+      float: left;
+      width: 49%;
+      margin: 0.5%;
+      a {
+        display: block;
+        background: white;
+        .list_media {
+          position: relative;
+          img {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: block;
+          
+          }
+          &::before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+          }
+          .list_icon {
+            height: 24px;
+            width: 24px;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+            background: url('../images/list_sprite.png');
+            background-repeat: no-repeat;
+            background-size: 24px 60px;
+          }
+        }
+        .list_text {
+          padding: 5px 0 31px 7px;
+          h3 {
+            color: #000;
+            font-weight: normal;
+            line-height: 18px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
